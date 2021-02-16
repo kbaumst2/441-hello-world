@@ -11,6 +11,10 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet  var mylabel: UILabel!
+    @IBOutlet  var goodnightLabel: UILabel!
+    @IBOutlet  var goodbyeWorldButton: UIButton!
+    @IBOutlet  var helloWorldButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,7 +22,11 @@ class ViewController: UIViewController {
     
     @IBAction func clickedButton(sender: UIButton) {
         //Subtracting Function
-        mylabel.text = "bye world"
+        //helloLabel.text = "bye world"
+        
+        mylabel.isHidden = true
+        goodnightLabel.isHidden = false
+        
     }
 
 }

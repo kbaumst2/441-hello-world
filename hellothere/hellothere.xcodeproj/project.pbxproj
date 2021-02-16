@@ -15,6 +15,7 @@
 		44076B3725DAC3BE0087AD1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44076B3525DAC3BE0087AD1F /* LaunchScreen.storyboard */; };
 		44076B4225DAC3BE0087AD1F /* hellothereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44076B4125DAC3BE0087AD1F /* hellothereTests.swift */; };
 		44076B4D25DAC3BE0087AD1F /* hellothereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44076B4C25DAC3BE0087AD1F /* hellothereUITests.swift */; };
+		44076B5E25DACA7D0087AD1F /* iceCream.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 44076B5D25DACA7D0087AD1F /* iceCream.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		44076B4825DAC3BE0087AD1F /* hellothereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellothereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44076B4C25DAC3BE0087AD1F /* hellothereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellothereUITests.swift; sourceTree = "<group>"; };
 		44076B4E25DAC3BE0087AD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44076B5D25DACA7D0087AD1F /* iceCream.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iceCream.jpeg; path = ../../iceCream.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				44076B2C25DAC3BC0087AD1F /* SceneDelegate.swift */,
 				44076B2E25DAC3BC0087AD1F /* ViewController.swift */,
 				44076B3025DAC3BC0087AD1F /* Main.storyboard */,
+				44076B5D25DACA7D0087AD1F /* iceCream.jpeg */,
 				44076B3325DAC3BE0087AD1F /* Assets.xcassets */,
 				44076B3525DAC3BE0087AD1F /* LaunchScreen.storyboard */,
 				44076B3825DAC3BE0087AD1F /* Info.plist */,
@@ -233,6 +236,7 @@
 			files = (
 				44076B3725DAC3BE0087AD1F /* LaunchScreen.storyboard in Resources */,
 				44076B3425DAC3BE0087AD1F /* Assets.xcassets in Resources */,
+				44076B5E25DACA7D0087AD1F /* iceCream.jpeg in Resources */,
 				44076B3225DAC3BC0087AD1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
