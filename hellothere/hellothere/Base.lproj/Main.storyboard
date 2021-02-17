@@ -42,17 +42,14 @@
                                     <action selector="clickedButtonWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="xBl-Vz-EiO"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iceCream.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="NCC-3j-h1S">
-                                <rect key="frame" x="80" y="382" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ope-tS-HHd">
                                 <rect key="frame" x="20" y="756" width="394" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Goodnight World">
                                         <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" size="48" name="Charter-Roman"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -60,25 +57,32 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nuy-Iz-RzK">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nuy-Iz-RzK">
                                 <rect key="frame" x="107" y="609" width="186" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Hello World!">
-                                    <color key="titleColor" systemColor="tertiarySystemBackgroundColor"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="clickedButtonWithSender:" destination="BYZ-38-t0r" eventType="touchDown" id="8ph-oC-ORn"/>
+                                    <action selector="clickGoodnightButtonWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J4o-ap-B2x"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sun.png" translatesAutoresizingMaskIntoConstraints="NO" id="LjI-du-YVi">
+                                <rect key="frame" x="47" y="380" width="307" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.91730084196891193" green="0.86874055140445705" blue="0.86375167055235891" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.91730084199999995" green="0.86874055139999995" blue="0.86375167060000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
+                        <outlet property="goodbyeWorldButton" destination="Zup-pz-JHK" id="L0y-GK-Qtr"/>
                         <outlet property="goodnightLabel" destination="Ope-tS-HHd" id="fHL-SY-GoN"/>
+                        <outlet property="helloWorldButton" destination="Nuy-Iz-RzK" id="zpw-Qb-cKv"/>
                         <outlet property="mylabel" destination="3qN-iB-fx0" id="fJX-CU-9OS"/>
+                        <outlet property="sunImage" destination="LjI-du-YVi" id="WPZ-Yb-nht"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -87,7 +91,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="iceCream.jpeg" width="190" height="266"/>
+        <image name="sun.png" width="105.12000274658203" height="99.360000610351562"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

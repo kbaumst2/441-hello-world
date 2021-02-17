@@ -16,6 +16,8 @@
 		44076B4225DAC3BE0087AD1F /* hellothereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44076B4125DAC3BE0087AD1F /* hellothereTests.swift */; };
 		44076B4D25DAC3BE0087AD1F /* hellothereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44076B4C25DAC3BE0087AD1F /* hellothereUITests.swift */; };
 		44076B5E25DACA7D0087AD1F /* iceCream.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 44076B5D25DACA7D0087AD1F /* iceCream.jpeg */; };
+		44238AD425DD6A3A00D95E9D /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 44238AD325DD6A3A00D95E9D /* sun.png */; };
+		44238AD925DD6B9200D95E9D /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44238AD825DD6B9200D95E9D /* moon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		44076B4C25DAC3BE0087AD1F /* hellothereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellothereUITests.swift; sourceTree = "<group>"; };
 		44076B4E25DAC3BE0087AD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44076B5D25DACA7D0087AD1F /* iceCream.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iceCream.jpeg; path = ../../iceCream.jpeg; sourceTree = "<group>"; };
+		44238AD325DD6A3A00D95E9D /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = ../../sun.png; sourceTree = "<group>"; };
+		44238AD825DD6B9200D95E9D /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moon.jpg; path = ../../moon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		44076B2925DAC3BC0087AD1F /* hellothere */ = {
 			isa = PBXGroup;
 			children = (
+				44238AD825DD6B9200D95E9D /* moon.jpg */,
+				44238AD325DD6A3A00D95E9D /* sun.png */,
 				44076B2A25DAC3BC0087AD1F /* AppDelegate.swift */,
 				44076B2C25DAC3BC0087AD1F /* SceneDelegate.swift */,
 				44076B2E25DAC3BC0087AD1F /* ViewController.swift */,
@@ -236,7 +242,9 @@
 			files = (
 				44076B3725DAC3BE0087AD1F /* LaunchScreen.storyboard in Resources */,
 				44076B3425DAC3BE0087AD1F /* Assets.xcassets in Resources */,
+				44238AD425DD6A3A00D95E9D /* sun.png in Resources */,
 				44076B5E25DACA7D0087AD1F /* iceCream.jpeg in Resources */,
+				44238AD925DD6B9200D95E9D /* moon.jpg in Resources */,
 				44076B3225DAC3BC0087AD1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
