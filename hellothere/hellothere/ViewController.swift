@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         
         sunImage.image = UIImage(named: "moon.jpg")
         view.backgroundColor = .black
-        //helloWorldButton.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
+        //view.backgroundColor = UIColor(patternImage: UIImage(named: "starsBackground.jpg")!)
         
         helloWorldButton.isHidden = false
         goodbyeWorldButton.isHidden = true

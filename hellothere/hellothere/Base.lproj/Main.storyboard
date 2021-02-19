@@ -31,11 +31,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zup-pz-JHK">
-                                <rect key="frame" x="107" y="279" width="186" height="30"/>
+                                <rect key="frame" x="107" y="274" width="186" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Goodbye World">
+                                <state key="normal" title="Goodnight World!">
                                     <color key="titleColor" systemColor="tertiarySystemBackgroundColor"/>
                                 </state>
                                 <connections>
